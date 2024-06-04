@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+#lista-de-sapatos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.item-sapato {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: calc(33% - 4rem);
+  text-align: center;
+}
+
+.item-sapato img {
+  max-width: 100%;
+  height: auto;
+}
+
+#detalhes-do-sapato {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#detalhes-do-sapato img {
+  max-width: 100%;
+  height: auto;
+}
