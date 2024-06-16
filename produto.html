@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Sapato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Loja de Sapatos</h1>
+    </header>
+
+    <main>
+        <section id="detalhes-do-sapato">
+            <img src="image" alt="Sapato">
+            <h2>Sapato - Social</h2>
+            <p>R$ 100,00</p>
+            <p>Cor: <strong>Preto</strong></p>
+            <form id="formulario-de-compra">
+                <div>
+                    <label for="quantidade"> Quantidade: </label>
+                    <input type="text" id="quantidade" name="quantidade" placeholder="Digite a quantidade..." autocomplete="false" onchange="validarQuantidade()"> 
+                    <!-- min="0" atributo para input numerico / autocomplete, atributo para impedir preenchimento automático -->
+                    <button>Finalizar Compra</button>
+                </div>
+                <span id="erro" style="color: red; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: block;"></span>                      
+                </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loja de Sapatos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
