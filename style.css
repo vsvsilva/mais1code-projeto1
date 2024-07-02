@@ -44,3 +44,43 @@ main {
   max-width: 100%;
   height: auto;
 }
+
+#carrinho li {
+  margin-bottom: 8px;
+  max-width: 850px;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+}
+
+#carrinho li button {
+  padding: 8px 12px;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.btn-remover {
+  background-color: #c9040466;
+}
+
+.btn-adicionar {
+  background-color: #02940266;
+}
+
+.btn-remover:hover,
+.btn-adicionar:hover {
+  opacity: 0.8;
+}
+
+#total {
+  text-align: end;
+  font-size: 2rem;
+}
